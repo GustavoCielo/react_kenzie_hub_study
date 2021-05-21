@@ -25,7 +25,6 @@ export default function Tech() {
   const loadTech = (data) => {
     api.get(`/users/${userId}`).then((response) => {
       setUserTechs(response.data.techs);
-      console.log(response.data);
     });
   };
 
