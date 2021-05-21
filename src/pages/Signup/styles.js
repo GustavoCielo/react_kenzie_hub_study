@@ -22,4 +22,12 @@ export const Container = styled.div`
   span {
     color: var(--red);
   }
+
+  h1 {
+    width: 100%;
+    background: var(--blue);
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 `;
