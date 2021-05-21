@@ -70,7 +70,6 @@ const Signup = () => {
               Quarto módulo (Backend Avançado)
             </option>
           </select>
-          <input {...register("course_module")} placeholder="Módulo do curso" />
           <span>{errors.course_module?.message}</span>
           <button type="submit">Enviar cadastro</button>
         </Container>
